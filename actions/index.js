@@ -18,3 +18,17 @@ export const toggleDoIt = id => {
     id
   };
 };
+
+export const logUserIn = (user, password) => {
+  return {
+    type: "LOG_USER_IN",
+    user,
+    password
+  };
+};
+
+export const logUserOut = () => {
+  return {
+    type: "LOG_USER_OUT"
+  };
+};
