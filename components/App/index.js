@@ -4,9 +4,7 @@ import { createStore, compose } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "../../reducers";
 
-let composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;
-
-const store = createStore(rootReducer, composeEnhancers());
+const store = createStore(rootReducer);
 
 import Header from "../Header";
 import DoItsContainer from "../../containers/DoItsContainer";

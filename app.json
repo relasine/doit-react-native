@@ -1,4 +1,6 @@
 {
+  "name": "doit",
+  "displayName": "doit",
   "expo": {
     "name": "doit",
     "description": "This project is really great.",
@@ -17,9 +19,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
